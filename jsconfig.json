@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@pages/*": [
+                "./cypress/support/ui/pages/*"
+            ],
+            "@locators/*": [
+                "./cypress/support/ui/locators/*"
+            ],
+            "@assertions/*": [
+                "./cypress/support/api/assertions/*"
+            ],
+            "@requests/*": [
+                "./cypress/support/api/requests/*"
+            ], 
+            "@utils/*": [
+                "./cypress/support/utils/*"
+            ], 
+            "@path_fixtures/*": [
+                "cypress/support/utils/paths.json"
+            ]
+        }
+    }
+}

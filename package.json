@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "open": "cypress open --e2e --browser chrome --config video=false",
+    "report": "cypress run --browser chrome --config video=false",
+    "report:front": "cypress run --env tags=@front --browser chrome --config video=false",
+    "report:back": "cypress run --env tags=@back --browser chrome --config video=false",
+    "standard": "cypress run --env tags=@standard --config video=false",
+    "alternative": "cypress run --env tags=@alternative --config video=false",
+    "massas": "cypress run --env tags=@massas --config video=false",
+    "debug": "cypress run --browser chrome --config video=false --headed"
+  },
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "chai-json-schema": "^1.5.1",
+    "cypress": "^12.0.2",
+    "cypress-plugin-api": "^2.11.1",
+    "esbuild": "^0.17.15",
+    "multiple-cucumber-html-reporter": "^3.7.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.2",
+    "@faker-js/faker": "^8.4.1",
+    "jwt-decode": "^4.0.0",
+    "xlsx": "^0.18.5"
+  }
+}
