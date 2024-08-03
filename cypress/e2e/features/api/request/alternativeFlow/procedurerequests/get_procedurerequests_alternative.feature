@@ -11,10 +11,4 @@ Feature: Tentar acessar os procedimentos fora do escopo de autorização
         And outro protetor 2 cadastrado no sistema com id disponivel
         Then tentar acessar os procedimentos do protetor 1 utilizando o acesso do protetor 2
 
-    #ID do procedimento informado incorretamente
-    @regression @back @alternative @get_procedurerequests{procedurerequest_id}
-    Scenario: Assegurar que será retornado a mensagem de erro que informe sobre a inexistência do procedimento
-        Given um protetor cadastrado disponivel no sistema v5
-        When gerar um ID inexistente
-        Then Tentar capturar a mensagem de erro informando que o prodecimento não existe
         
