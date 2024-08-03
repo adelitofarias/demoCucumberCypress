@@ -1,23 +1,23 @@
-# Projeto de automação API adotando o framework Cypress com Cucumber
+# Projeto de Automação adotando o framework Cypress com Cucumber
 ---
 
-> Esse é um exemplo de como montar uma estrutura inicial de testes automáticos de API com o auxílio do [`Cypress.io`](https://github.com/cypress-io/cypress) e do [`cypress-cucumber-preprocessor`](https://github.com/badeball/cypress-cucumber-preprocessor) que dá suporte para a escrita dos cenários com as regras gramaticais do Gherkin e 
-com o auxílio do [`cypress-plugin-api`](https://github.com/filiphric/cypress-plugin-api) para visualização das respostas.
+> Esse é um exemplo de como montar uma estrutura inicial de testes automáticos com o auxílio do [`Cypress.io`](https://github.com/cypress-io/cypress) e do [`cypress-cucumber-preprocessor`](https://github.com/badeball/cypress-cucumber-preprocessor) que dá suporte para a escrita dos cenários com as regras gramaticais do Gherkin.
 
-![GET](https://user-images.githubusercontent.com/19351435/201253753-74a78656-919a-469f-a516-334afe77756f.gif)
+> [!NOTE]
+> Fluxo de Sucesso.
 
-![POST](https://user-images.githubusercontent.com/19351435/202854318-6f4a4e74-6761-47b4-959b-c2f2a7ad16ba.gif)
+https://github.com/user-attachments/assets/b9827fd0-0e71-4d36-af0d-fc38f0699fdd
 
-![report](https://user-images.githubusercontent.com/19351435/214204999-823fb210-1bb7-4165-8b29-bd337c571b5a.gif)
 
 ## 📖 Sumário
 ---
 
 1. [Pré-Requisitos](#pre-requisitos)
-2. [Arquitetura do Projeto](#arquitetura-do-projeto)
-3. [Camadas da Arquitetura](#camadas-da-arquitetura)
-4. [Geração de Massas de Testes](#geracao-de-massas-de-testes)
-5. [Relatório da Sprint](#relatorio-sprint)
+2. [Políticas de Testes](#politica-de-testes)
+3. [Arquitetura do Projeto](#arquitetura-do-projeto)
+4. [Camadas da Arquitetura](#camadas-da-arquitetura)
+5. [Geração de Massas de Testes](#geracao-de-massas-de-testes)
+6. [Relatório da Sprint](#relatorio-sprint)
 
 ### ✨ Pré-Requisitos
 ---
@@ -35,10 +35,28 @@ com o auxílio do [`cypress-plugin-api`](https://github.com/filiphric/cypress-pl
     - Para maiores detalhes, consutar: [`json-formatter`](https://github.com/cucumber/json-formatter) 
 - Pronto, o projeto será executado em sua máquina e construirá o relatório. �
 
+### 🪧 Políticas de Testes
+---
+
+<a id="politica-de-testes"></a>
+
+> [!NOTE]
+> A metodologia aqui descrita orienta uma abordagem de testes, mas não a limita, devendo ser revista e atualizada para endereçar o contexto particular de cada fase do projeto, cobrindo os processos de gerenciamento de teste e processos dinâmicos de teste.
+
+
+- A abordagem principal se fundamenta nas práticas de Teste Ágil e Desenvolvimento orientado a Comportamento (BDD). A modelagem dos requisitos de qualidade do sistema será baseada na norma ISO/IEC/IEEE 29119. O esquema a seguir esquematiza o fluxo esquematizado para as atividades da arantia da Qualidade: 
+
+![Fases de Teste](<processo de QA.jpg>)
+
+
 ### ⚙️ Arquitetura do Projeto
 ---
 
 <a id="arquitetura-do-projeto"></a>
+> [!IMPORTANT]
+> Estrutura do Projeto Cypress
+> Este projeto utiliza o Cypress para testes automatizados, organizado da seguinte maneira:
+
 
 ```
   ├─  cypress/
@@ -103,6 +121,10 @@ com o auxílio do [`cypress-plugin-api`](https://github.com/filiphric/cypress-pl
 ---
 
 <a id="camadas-da-arquitetura"></a>
+> [!TIP]
+> A arquitetura a seguir é apresentada com a seguinte diagramação
+
+![Representção Esquemática da Arquitetura](image.png)
 
  - **assertions:** estratégia para executar as assertivas dos parametros retornados pela requisição;
  - **features:** arquivos contendo as definições de BDD em extensão *.feature;
