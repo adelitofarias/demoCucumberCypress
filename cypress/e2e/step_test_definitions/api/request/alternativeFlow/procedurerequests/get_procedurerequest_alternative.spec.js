@@ -3,8 +3,6 @@
 import { assertionsGetProcedureNotScopeAlternative } from "@assertions/requestService/alternativeFlow/assertinsGetProcedureNotScopeAlternative";
 import { assertionsGetProcedureWrongIdAlternative } from "@assertions/requestService/alternativeFlow/assertionsGetProcedureWrongIdAlternative";
 import { Given, Then, When } from "@badeball/cypress-cucumber-preprocessor";
-import { requestProtectorID } from "@requests/account/standardFlow/auth/requestProtectorID";
-import { request_account_standardFlow_get_protector_id_municipality } from "@requests/account/standardFlow/auth/request_account_standardFlow_get_protector_id_municipality";
 import { requestGetProcedureNotScopeAlternative } from "@requests/requestService/alternativeFlow/procedurerequests/requestGetProcedureNotScopeAlternative";
 import { requestGetProcedureWrongIdAlternative } from "@requests/requestService/alternativeFlow/procedurerequests/requestGetProcedureWrongIdAlternative";
 import { requestPostProcedureRequests } from "@requests/requestService/standardFlow/procedurerequests/requestPostProcedureRequestsStandard";
@@ -133,7 +131,7 @@ Then(
 
 let idInexixtente = null;
 
-Given("um protetor cadastrado disponivel no sistema v5", () => {});
+Given("um protetor cadastrado disponivel no sistema v5", () => { });
 
 When("gerar um ID inexistente", () => {
   idInexixtente = "12dfed3f4nsfsfecdf342cd23";

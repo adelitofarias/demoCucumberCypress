@@ -2,8 +2,6 @@
 
 import { assertionsGetProcedureIdStandard } from "@assertions/requestService/standardFlow/procedurerequests/assertionsGetProcedureIdStandard";
 import { Given, Then, When } from "@badeball/cypress-cucumber-preprocessor";
-import { requestProtectorID } from "@requests/account/standardFlow/auth/requestProtectorID";
-import { request_account_standardFlow_get_protector_id_municipality } from "@requests/account/standardFlow/auth/request_account_standardFlow_get_protector_id_municipality";
 import { requestGetOneProcedureStandard } from "@requests/requestService/standardFlow/procedurerequests/requestGetOneProcedureStandard";
 import { requestPostProcedureRequests } from "@requests/requestService/standardFlow/procedurerequests/requestPostProcedureRequestsStandard";
 import { Config } from "@utils/config";
