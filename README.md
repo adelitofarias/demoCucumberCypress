@@ -14,10 +14,11 @@ com o auxílio do [`cypress-plugin-api`](https://github.com/filiphric/cypress-pl
 ---
 
 1. [Pré-Requisitos](#pre-requisitos)
-2. [Arquitetura do Projeto](#arquitetura-do-projeto)
-3. [Camadas da Arquitetura](#camadas-da-arquitetura)
-4. [Geração de Massas de Testes](#geracao-de-massas-de-testes)
-5. [Relatório da Sprint](#relatorio-sprint)
+2. [Políticas de Testes](#politica-de-testes)
+3. [Arquitetura do Projeto](#arquitetura-do-projeto)
+4. [Camadas da Arquitetura](#camadas-da-arquitetura)
+5. [Geração de Massas de Testes](#geracao-de-massas-de-testes)
+6. [Relatório da Sprint](#relatorio-sprint)
 
 ### ✨ Pré-Requisitos
 ---
@@ -34,6 +35,20 @@ com o auxílio do [`cypress-plugin-api`](https://github.com/filiphric/cypress-pl
     - `npm run run`
     - Para maiores detalhes, consutar: [`json-formatter`](https://github.com/cucumber/json-formatter) 
 - Pronto, o projeto será executado em sua máquina e construirá o relatório. �
+
+### 🪧 Políticas de Testes
+---
+
+<a id="politica-de-testes"></a>
+
+> [!NOTE]
+> A metodologia aqui descrita orienta uma abordagem de testes, mas não a limita, devendo ser revista e atualizada para endereçar o contexto particular de cada fase do projeto, cobrindo os processos de gerenciamento de teste e processos dinâmicos de teste.
+
+
+- A abordagem principal se fundamenta nas práticas de Teste Ágil e Desenvolvimento orientado a Comportamento (BDD). A modelagem dos requisitos de qualidade do sistema será baseada na norma ISO/IEC/IEEE 29119. O esquema a seguir esquematiza o fluxo esquematizado para as atividades da arantia da Qualidade: 
+
+![Fases de Teste](<processo de QA.jpg>)
+
 
 ### ⚙️ Arquitetura do Projeto
 ---
@@ -103,6 +118,10 @@ com o auxílio do [`cypress-plugin-api`](https://github.com/filiphric/cypress-pl
 ---
 
 <a id="camadas-da-arquitetura"></a>
+> [!TIP]
+> A arquitetura a seguir é apresentada com a seguinte diagramação
+
+![Representção Esquemática da Arquitetura](image.png)
 
  - **assertions:** estratégia para executar as assertivas dos parametros retornados pela requisição;
  - **features:** arquivos contendo as definições de BDD em extensão *.feature;
