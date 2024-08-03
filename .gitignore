@@ -54,7 +54,7 @@ cypress.env.json
 cypress/screenshots/
 cypress/videos
 cypress/downloads
-reports
+
 # Exceto cucumber-json-formatter.exe
 !cucumber-json-formatter.exe
 
