@@ -1,16 +1,13 @@
-# Projeto de automação API adotando o framework Cypress com Cucumber
+# Projeto de Automação adotando o framework Cypress com Cucumber
 ---
 
-> Esse é um exemplo de como montar uma estrutura inicial de testes automáticos de API com o auxílio do [`Cypress.io`](https://github.com/cypress-io/cypress) e do [`cypress-cucumber-preprocessor`](https://github.com/badeball/cypress-cucumber-preprocessor) que dá suporte para a escrita dos cenários com as regras gramaticais do Gherkin e 
-com o auxílio do [`cypress-plugin-api`](https://github.com/filiphric/cypress-plugin-api) para visualização das respostas.
+> Esse é um exemplo de como montar uma estrutura inicial de testes automáticos com o auxílio do [`Cypress.io`](https://github.com/cypress-io/cypress) e do [`cypress-cucumber-preprocessor`](https://github.com/badeball/cypress-cucumber-preprocessor) que dá suporte para a escrita dos cenários com as regras gramaticais do Gherkin.
 
-![Sucesso](c:\Users\Adelito\Downloads\sucesso.mp4)
-<video controls src="sucesso.mp4" title="Title"></video>
+> [!NOTE]
+> Fluxo de Sucesso.
 
+https://github.com/user-attachments/assets/b9827fd0-0e71-4d36-af0d-fc38f0699fdd
 
-![POST](https://user-images.githubusercontent.com/19351435/202854318-6f4a4e74-6761-47b4-959b-c2f2a7ad16ba.gif)
-
-![report](https://user-images.githubusercontent.com/19351435/214204999-823fb210-1bb7-4165-8b29-bd337c571b5a.gif)
 
 ## 📖 Sumário
 ---
