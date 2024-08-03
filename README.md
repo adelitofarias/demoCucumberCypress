@@ -54,6 +54,10 @@ com o auxílio do [`cypress-plugin-api`](https://github.com/filiphric/cypress-pl
 ---
 
 <a id="arquitetura-do-projeto"></a>
+> [!IMPORTANT]
+> Estrutura do Projeto Cypress
+> Este projeto utiliza o Cypress para testes automatizados, organizado da seguinte maneira:
+
 
 ```
   ├─  cypress/
