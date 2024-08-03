@@ -148,6 +148,6 @@ com o auxílio do [`cypress-plugin-api`](https://github.com/filiphric/cypress-pl
 - ##### Ao fim de cada sprint, todos os teste são executados e um relatório é construído para auxiliar na interpretação da sanidade do projeto.
 > O relatório não é carregado no ambiente do git, sendo necessário baaixar para suaa máquina e abrir em um browser.
 
-# Relatório da Sprint 9
+# Relatório da execução
 
-Para acessar o relatório da Sprint 9, clique [aqui](modeling/sprint9/report/report-sprint9.html).
+Para acessar o relatório, clique [aqui](report/index.html).
