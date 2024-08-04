@@ -46,8 +46,7 @@ https://github.com/user-attachments/assets/b9827fd0-0e71-4d36-af0d-fc38f0699fdd
 
 - A abordagem principal se fundamenta nas práticas de Teste Ágil e Desenvolvimento orientado a Comportamento (BDD). A modelagem dos requisitos de qualidade do sistema será baseada na norma ISO/IEC/IEEE 29119. O esquema a seguir esquematiza o fluxo esquematizado para as atividades da arantia da Qualidade: 
 
-![Fases de Teste](<processo de QA.jpg>)
-
+![Fases de Teste](<supportReadme/processo de QA.jpg>)
 
 ### ⚙️ Arquitetura do Projeto
 ---
@@ -124,7 +123,7 @@ https://github.com/user-attachments/assets/b9827fd0-0e71-4d36-af0d-fc38f0699fdd
 > [!TIP]
 > A arquitetura a seguir é apresentada com a seguinte diagramação
 
-![Representção Esquemática da Arquitetura](image.png)
+![Representção Esquemática da Arquitetura](supportReadme/esquemaAutomacao.png)
 
  - **assertions:** estratégia para executar as assertivas dos parametros retornados pela requisição;
  - **features:** arquivos contendo as definições de BDD em extensão *.feature;
