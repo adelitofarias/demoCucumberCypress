@@ -33,7 +33,7 @@ https://github.com/user-attachments/assets/b9827fd0-0e71-4d36-af0d-fc38f0699fdd
 - Para acionar os testes em modo headless e cosntruir o relatório em ambiente Windowns, insira o arquivo `cucumber-json-formatter.exe` e execute no diretório do projeto:
     - `npm run run`
     - Para maiores detalhes, consutar: [`json-formatter`](https://github.com/cucumber/json-formatter) 
-- Pronto, o projeto será executado em sua máquina e construirá o relatório. �
+- Pronto, o projeto será executado em sua máquina e construirá o relatório.
 
 ### 🪧 Políticas de Testes
 ---
@@ -170,5 +170,9 @@ https://github.com/user-attachments/assets/b9827fd0-0e71-4d36-af0d-fc38f0699fdd
 > O relatório não é carregado no ambiente do git, sendo necessário baaixar para suaa máquina e abrir em um browser.
 
 # Relatório da execução
+> [!IMPORTANT]
+> Vídeo demonstrativo do relatório:
 
-Para acessar o relatório, clique [aqui](report/index.html).
+https://github.com/user-attachments/assets/f5d08f2f-76bc-4a77-ae54-ce96c31c579e
+
+
