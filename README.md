@@ -169,9 +169,9 @@ https://github.com/user-attachments/assets/b9827fd0-0e71-4d36-af0d-fc38f0699fdd
 - ##### Ao fim de cada sprint, todos os teste são executados e um relatório é construído para auxiliar na interpretação da sanidade do projeto.
 > O relatório não é carregado no ambiente do git, sendo necessário baaixar para suaa máquina e abrir em um browser.
 
-# Relatório da execução
+### Vídeo demonstrativo do Relatório da execução
 > [!IMPORTANT]
-> Vídeo demonstrativo do relatório:
+> Para gerar o report é nescessário execcutar o seguinte comando no terminal: `node cucumber-html-report.mjs`
 
 https://github.com/user-attachments/assets/f5d08f2f-76bc-4a77-ae54-ce96c31c579e
 
