@@ -171,7 +171,7 @@ https://github.com/user-attachments/assets/b9827fd0-0e71-4d36-af0d-fc38f0699fdd
 
 ### Vídeo demonstrativo do Relatório da execução
 > [!IMPORTANT]
-> Para gerar o reporte é nescessário execcutar o seguinte comando no terminal: `node cucumber-html-report.mjs`
+> Para gerar o report é nescessário execcutar o seguinte comando no terminal: `node cucumber-html-report.mjs`
 
 https://github.com/user-attachments/assets/f5d08f2f-76bc-4a77-ae54-ce96c31c579e
 
