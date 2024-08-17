@@ -1,11 +1,11 @@
 /// <reference types="cypress" />
 
-import { assertionsGetProcedureNotScopeAlternative } from "@assertions/requestService/alternativeFlow/assertinsGetProcedureNotScopeAlternative";
-import { assertionsGetProcedureWrongIdAlternative } from "@assertions/requestService/alternativeFlow/assertionsGetProcedureWrongIdAlternative";
 import { Given, Then, When } from "@badeball/cypress-cucumber-preprocessor";
-import { requestGetProcedureNotScopeAlternative } from "@requests/requestService/alternativeFlow/procedurerequests/requestGetProcedureNotScopeAlternative";
-import { requestGetProcedureWrongIdAlternative } from "@requests/requestService/alternativeFlow/procedurerequests/requestGetProcedureWrongIdAlternative";
-import { requestPostProcedureRequests } from "@requests/requestService/standardFlow/procedurerequests/requestPostProcedureRequestsStandard";
+//import { assertionsGetProcedureNotScopeAlternative } from "@assertions/requestService/alternativeFlow/assertinsGetProcedureNotScopeAlternative";
+//import { assertionsGetProcedureWrongIdAlternative } from "@assertions/requestService/alternativeFlow/assertionsGetProcedureWrongIdAlternative";
+//import { requestGetProcedureNotScopeAlternative } from "@requests/requestService/alternativeFlow/procedurerequests/requestGetProcedureNotScopeAlternative";
+//import { requestGetProcedureWrongIdAlternative } from "@requests/requestService/alternativeFlow/procedurerequests/requestGetProcedureWrongIdAlternative";
+//import { requestPostProcedureRequests } from "@requests/requestService/standardFlow/procedurerequests/requestPostProcedureRequestsStandard";
 import { Config } from "@utils/config";
 
 let token = null,
