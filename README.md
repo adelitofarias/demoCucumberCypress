@@ -178,7 +178,7 @@ https://github.com/user-attachments/assets/b9827fd0-0e71-4d36-af0d-fc38f0699fdd
 - ##### Formatação Markdown para o PR:
 
 Markdown
-
+```
 ### Adiciona funcionalidade de visualização de produtos e ordenação do maior para o menor
  
 #### Contexto
@@ -215,7 +215,7 @@ Este PR implementa a funcionalidade de visualização de produtos e a capacidade
 - [x] Documentação atualizada (caso se aplique)
 - [x] Screenshots anexado do teste aprovado
 - [x] Revisão pelo time de QA
-
+```
 
 ## 📊 Relatório da Sprint
 ---
