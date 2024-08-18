@@ -17,7 +17,8 @@ https://github.com/user-attachments/assets/b9827fd0-0e71-4d36-af0d-fc38f0699fdd
 3. [Arquitetura do Projeto](#arquitetura-do-projeto)
 4. [Camadas da Arquitetura](#camadas-da-arquitetura)
 5. [Geração de Massas de Testes](#geracao-de-massas-de-testes)
-6. [Relatório da Sprint](#relatorio-sprint)
+6. [Como construir um PR](#como-construir-um-pr)
+7. [Relatório da Sprint](#relatorio-sprint)
 
 ### ✨ Pré-Requisitos
 ---
@@ -160,6 +161,61 @@ https://github.com/user-attachments/assets/b9827fd0-0e71-4d36-af0d-fc38f0699fdd
 6. **Importação dos Commands:**
    No arquivo `e2e.js`, asseguramos que todos os Commands serão lidos. Isso é feito importando cada command implemenetado, da seguinte forma: `import './utils/commands/pasta_perfil/commands_perfil`
 
+## 🎯 Como construir um PR
+---
+
+<a id="como-construir-um-pr"></a>
+
+
+### 🌟 Importância da Documentação Clara no PR 🌟
+
+> Ao construir um Pull Request (PR), a clareza e a organização são fundamentais para garantir que as mudanças propostas sejam compreendidas e revisadas de maneira eficiente.
+>
+> Documentar o PR com uma descrição bem estruturada não só facilita a vida dos revisores, mas também serve como um registro valioso para o futuro. Detalhar o contexto, as mudanças, e os passos para testar as novas funcionalidades permite que o time entenda rapidamente o propósito e o impacto do PR, promovendo uma revisão mais eficaz e contribuindo para a manutenção da qualidade do código.
+>
+> *Essa prática meticulosa na construção do PR reflete o compromisso com a excelência e a responsabilidade no desenvolvimento de software, ajudando a evitar mal-entendidos e a garantir que as novas funcionalidades sejam integradas sem problemas ao código base.*
+
+- ##### Formatação Markdown para o PR:
+
+Markdown
+
+### Adiciona funcionalidade de visualização de produtos e ordenação do maior para o menor
+ 
+#### Contexto
+Este PR implementa a funcionalidade de visualização de produtos e a capacidade de ordená-los do maior para o menor preço. Esta melhoria visa facilitar a navegação dos usuários através da lista de produtos, permitindo uma experiência de compra mais eficiente e agradável. Esta funcionalidade foi solicitada no CA AAAA
+ 
+#### Mudanças Principais
+- **Backend**:
+  - Adição de endpoint para recuperar a lista de produtos com suporte a ordenação por preço.
+  
+- **Frontend**:
+  - Criação de interface para visualização de produtos.
+  - Implementação de dropdown para seleção de critérios de ordenação.
+  - Ajustes na UI para exibir os produtos ordenados conforme selecionado.
+ 
+ 
+#### Como Testar
+1. Navegue até a página de produtos no frontend.
+2. Verifique se a lista de produtos é carregada corretamente.
+3. Utilize o dropdown de ordenação para selecionar "Preço: do maior para o menor".
+4. Verifique se os produtos são reordenados corretamente conforme o critério selecionado.
+5. Realize verificações para diferentes conjuntos de produtos e certifique-se de que a ordenação está funcionando corretamente.
+ 
+#### Screenshots
+![Tela de Visualização de Produtos](link-para-imagem-visualizacao-produtos)
+
+ 
+#### Referências
+- TestLink: ATIVOS-25 (ID do cenário no testlink)
+- OpenProject: CA AAAA [link do OP]
+
+ 
+#### Checklist
+- [x] Testes escritos e passando
+- [x] Documentação atualizada (caso se aplique)
+- [x] Screenshots anexado do teste aprovado
+- [x] Revisão pelo time de QA
+
 
 ## 📊 Relatório da Sprint
 ---
@@ -171,7 +227,7 @@ https://github.com/user-attachments/assets/b9827fd0-0e71-4d36-af0d-fc38f0699fdd
 
 ### Vídeo demonstrativo do Relatório da execução
 > [!IMPORTANT]
-> Para gerar o report é nescessário execcutar o seguinte comando no terminal: `node cucumber-html-report.mjs`
+> Para gerar o report é nescessário executar o seguinte comando no terminal: `node cucumber-html-report.mjs`
 
 https://github.com/user-attachments/assets/f5d08f2f-76bc-4a77-ae54-ce96c31c579e
 
