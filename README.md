@@ -193,7 +193,6 @@ Este PR implementa a funcionalidade de visualização de produtos e a capacidade
   - Implementação de dropdown para seleção de critérios de ordenação.
   - Ajustes na UI para exibir os produtos ordenados conforme selecionado.
  
- 
 #### Como Testar
 1. Navegue até a página de produtos no frontend.
 2. Verifique se a lista de produtos é carregada corretamente.
@@ -204,12 +203,10 @@ Este PR implementa a funcionalidade de visualização de produtos e a capacidade
 #### Screenshots
 ![Tela de Visualização de Produtos](link-para-imagem-visualizacao-produtos)
 
- 
 #### Referências
-- TestLink: ATIVOS-25 (ID do cenário no testlink)
-- OpenProject: CA AAAA [link do OP]
+- TestLink: ID-111 (ID do cenário no testlink)
+- Jira: ID-AAAA (ID do card no Jira)
 
- 
 #### Checklist
 - [x] Testes escritos e passando
 - [x] Documentação atualizada (caso se aplique)
