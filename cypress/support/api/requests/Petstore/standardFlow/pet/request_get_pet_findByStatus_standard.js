@@ -3,8 +3,8 @@ import { Config } from "@utils/config";
 class RequestGetPetStandard {
 
 
-    checkApiAvailability(url) {
-        return cy.request(url)
+    checkApiAvailability() {
+        return cy.request(Config.DEV_API_GATEWAY)
     }
 
     getcheckPetStatusFilter(status) {
