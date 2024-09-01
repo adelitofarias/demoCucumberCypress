@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 import { Given, Then, When } from "@badeball/cypress-cucumber-preprocessor";
-import { Config } from "@utils/config";
+
 import { requestGetPetStandard } from "@requests/Petstore/standardFlow/pet/request_get_pet_findByStatus_standard";
 import { assertionsGetPetStandard } from "@assertions/Petstore/standardFlow/pet/assertion_get_pet_findByStatus_standard";
 
@@ -9,7 +9,7 @@ let statusValido = null;
 
 Given("que a API esteja operacional", () => {
 
-  requestGetPetStandard.checkApiAvailability(Config.DEV_API_GATEWAY).then((response) => {
+  requestGetPetStandard.checkApiAvailability().then((response) => {
     assertionsGetPetStandard.notNull(response);
     assertionsGetPetStandard.shouldContainStatus(response, 200);
   });
@@ -37,7 +37,6 @@ Then("deverá todos os valores correspondentes", () => {
     assertionsGetPetStandard.statusShouldBeString(response);
     assertionsGetPetStandard.firstPetStatus(response, statusValido);
     assertionsGetPetStandard.validateAllPetsHaveValidStatus(response, statusValido);
-
 
   });
 
