@@ -1,5 +1,5 @@
 import { Given, When } from "@badeball/cypress-cucumber-preprocessor";
-import { utilsPages } from "@pages/utils/utilsPages";
+import { testDataStrategy } from "@utils/massas/testDataStrategy";
 
 Given("que preciso gerar {string} perfis de administradores", (quantidade) => {
   cy.wrap(quantidade).as('quantidade');
@@ -7,5 +7,5 @@ Given("que preciso gerar {string} perfis de administradores", (quantidade) => {
 
 When("eu gerar os perfis de administradores", function () {
   const quantidade = this.quantidade;
-  utilsPages.gerarMassasAdmin(quantidade);
+  testDataStrategy.gerarMassasAdmin(quantidade);
 });
