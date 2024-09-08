@@ -4,7 +4,7 @@ import { fixtures_static } from "@path_fixtures/userData"
 const fileName = 'phones.json';
 const filePath = `${fixtures_static}/${fileName}`;
 
-class UtilsPages {
+class TestDataStrategy {
 
     gerarMassasAdmin(numeroDeMassas) {
         const telefones = [];
@@ -64,4 +64,4 @@ class UtilsPages {
 
 }
 
-export const utilsPages = new UtilsPages();
+export const testDataStrategy = new TestDataStrategy();
