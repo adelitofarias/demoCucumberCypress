@@ -19,6 +19,9 @@
             ], 
             "@path_fixtures/*": [
                 "cypress/support/utils/paths.json"
+            ], 
+            "@schema/*": [
+                "cypress/support/structural/*"
             ]
         }
     }
