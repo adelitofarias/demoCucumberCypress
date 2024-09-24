@@ -1,4 +1,4 @@
-# Projeto de Automação adotando o framework Cypress com Cucumber
+# Projeto de Automação adotando o framework Cypress com Cucumber [![e2e](https://github.com/adelitofarias/demoCucumberCypress/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/adelitofarias/demoCucumberCypress/actions/workflows/ci.yaml)
 ---
 
 > Esse é um exemplo de como montar uma estrutura inicial de testes automáticos com o auxílio do [`Cypress.io`](https://github.com/cypress-io/cypress) e do [`cypress-cucumber-preprocessor`](https://github.com/badeball/cypress-cucumber-preprocessor) que dá suporte para a escrita dos cenários com as regras gramaticais do Gherkin.
