@@ -7,7 +7,7 @@ jobs:
       matrix:
         node-version: [20.x] # Atualizando para a versão 20 do Node.js
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
@@ -20,14 +20,14 @@ jobs:
       with:
         config-file: cypress.config.js
 
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       if: failure()
       with:
         name: cypress-screenshots
         path: cypress-screenshots
         if-no-files-found: ignore
 
-    - uses: actions/upload-artifacts@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: cypress-videos
         path: cypress/videos 
