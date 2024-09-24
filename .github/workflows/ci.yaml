@@ -5,8 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [20.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+        node-version: [20.x] # Atualizando para a versão 20 do Node.js
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
@@ -15,6 +14,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     
-    # action criada especialmente para o Cypress
+    # ação Cypress com cypress.config.js
     - name: Cypress run
       uses: cypress-io/github-action@v2.8.2
+      with:
+        config-file: cypress.config.js
