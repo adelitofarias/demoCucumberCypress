@@ -13,6 +13,9 @@ When("retornará informando que o contrato para o Modelo Pet está dentro do esp
     const validStatuses = 'sold';
 
     requestGetPetStandard.getcheckPetStatusFilter(validStatuses).then((getDataResponse) => {
+
+        cy.log(JSON.stringify(getDataResponse.body));
+        cy.log(JSON.stringify(definitionsSchemaPet));
         expect(getDataResponse.body).to.be.jsonSchema(definitionsSchemaPet)
     });
 })
